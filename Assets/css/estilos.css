@@ -95,10 +95,11 @@ img {
   padding: 30px; }
 
 #img {
-  display: block;
-  margin: auto;
+  display: flex;
+  justify-content: center;
   box-shadow: 5px 9px 20px #2e1124;
-  margin: 10px 10px;
+  margin: 40px 40px;
+  padding: 10px;
   /*etiqueta*/ }
 
 .decoracion {

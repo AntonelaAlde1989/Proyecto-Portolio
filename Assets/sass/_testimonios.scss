@@ -1,0 +1,35 @@
+/* _testimonios.scss*/
+.testimonios {
+  border: 1px solid red; //Testing
+
+  background-color: rgb(219, 154, 219);
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  &__lista {
+    background-color: burlywood;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    .testimonios__contenido {
+      font-family: Georgia, "Times New Roman", Times, serif;
+      font-size: 30px;
+      height: 50px;
+      width: 200px;
+      border: 1px solid red; //Testing
+
+      &--mensaje {
+        color: rgb(7, 7, 95);
+        font-style: italic;
+        font-size: 18px;
+      }
+      &--autor {
+        color: rgb(255, 0, 106);
+        font-size: 14px;
+        font-weight: bold;
+      }
+    }
+  }
+}

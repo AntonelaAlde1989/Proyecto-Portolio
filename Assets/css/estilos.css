@@ -56,9 +56,9 @@ body {
 
 header {
   background-color: #25242e; }
-
-img {
-  width: 100%; }
+.imgTrabajos {
+  width:100%;
+}
 
 /*Selector ID*/
 #uno {
@@ -98,9 +98,9 @@ img {
   display: flex;
   justify-content: center;
   box-shadow: 5px 9px 20px #2e1124;
-  margin: 40px 40px;
-  padding: 10px;
+  margin: 10px 10px;
   /*etiqueta*/ }
+
 
 .decoracion {
   display: block;
@@ -268,7 +268,7 @@ p {
   bottom: 0px; }
 
 /*ELEMENTOS CON FLEX BOX */
-k nav ul {
+nav ul {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -321,6 +321,11 @@ header img {
   display: flex;
   flex-direction: row;
   justify-content: center; }
+
+.sombra{
+  box-shadow: rgba(46, 15, 39, 0.8) 0px 0px 50px;
+  border-radius: 7px;
+}
 
 /*MEDIA QUERIES*/
 @media (max-width: 425px) {

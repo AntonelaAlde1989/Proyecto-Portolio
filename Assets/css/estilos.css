@@ -178,6 +178,12 @@ li {
   font-weight: bold;
   padding: 40px 20px 20px 20px; }
 
+.lugar{
+  display: grid;
+  grid-row: auto;
+
+}
+
 #centro {
   display: flex;
   justify-content: center; }

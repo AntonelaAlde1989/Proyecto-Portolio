@@ -325,10 +325,7 @@ nav ul {
   padding: 0px 20px;
 }
 
-section {
-  display: flex;
-  flex-flow: row wrap;
-}
+
 
 .imagen_centro {
   display: flex;
@@ -687,3 +684,46 @@ header img {
     opacity: 1;
   }
 }
+
+/*Sección Trabajos*/
+.proyects {
+  background: #9e8fb2;
+  background-image: linear-gradient(315deg, #9e8fb2 0%, #a7acd9 74%);
+}
+
+
+.contenedor-imagenes{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+.contenedor-imagenes img{
+  width: 30%;
+  box-shadow: 5px 9px 20px rgba(46, 15, 39, 0.7);
+  margin: 20px 20px 20px 20px;
+  
+
+}
+
+.titulos-seccion{
+  font-family:'Poppins', sans-serif;
+  font-size: 200px;
+}
+
+.contenedor h2{
+  font-family:'Poppins', sans-serif;
+  font-size: 50px;
+  text-align: center;
+
+}
+
+
+.contenedor h1{
+  font-family:'Poppins', sans-serif;
+  font-size: 60px;
+  text-align: center;
+
+}
+
+

@@ -127,6 +127,11 @@ header {
   text-decoration-line: overline;
 }
 
+.imagenCa{
+  width: 1000px;
+  height: 478px;
+}
+
 .textosResponsives {
   text-decoration: none;
   text-decoration-line: none;
@@ -295,10 +300,6 @@ textarea:focus {
   text-align: center;
 }
 
-button:hover {
-  transform: scale(1.05);
-  box-shadow: rgba(46, 15, 39, 0.7) 0px, 0px, 16px;
-}
 
 /*COLOR DE FONDO TABLAS, ELEMENTOS: #1a1c2*/
 /*Box Modeling*/
@@ -724,6 +725,27 @@ header img {
   font-size: 60px;
   text-align: center;
 
+}
+
+.containerTitulo h1{
+  font-family:'Poppins', sans-serif;
+  color: #000;
+  font-size: 40px;
+  text-align: center;
+}
+
+.containerTitulo h3{
+  font-family:'Poppins', sans-serif;
+  color: #000;
+  font-size: 40px;
+  text-align: center;
+
+}
+
+
+#galeria img{
+  width:300px;
+  height: 150px;
 }
 
 
